@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/style/styles.css">
+    <script src="/script/app.js" defer></script>
+</head>
+<body>
+    <main id="salom">
+    <div class="login-container">
+        <h2>Saytimizga xush kelibsiz</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <div class="error" id="usernameError"></div>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="error" id="passwordError"></div>
+            <div class="juma">
+                <button type="submit">Login</button>
+            </div>
+            <div class="success" id="successMessage"></div>
+        </form>
+    </div>
+    
+        <img class="imgs" src="/assets/img/IMAGE.png" alt="">
+    
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
